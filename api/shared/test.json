@@ -1,0 +1,38 @@
+{
+  "org_name": "Paradise Island",
+  "daughters": [
+    {
+      "org_name": "Banana tree",
+      "daughters": [
+        {
+          "org_name": "Yellow Banana"
+        },
+        {
+          "org_name": "Brown Banana"
+        },
+        {
+          "org_name": "Black banana"
+        }
+      ]
+    },
+    {
+      "org_name": "Big banana tree",
+      "daughters": [
+        {
+          "org_name": "Green banana"
+        },
+        {
+          "org_name": "Yellow banana"
+        },
+        {
+          "org_name": "Black banana",
+          "daughters": [
+            {
+              "org_name": "Phoneutria Spider"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
