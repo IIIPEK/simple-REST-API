@@ -7,24 +7,15 @@ class Database {
     // database and account
     /**
     * @var string $host Host
+    * @var string $db_name Name of database on server
+    * @var string $user Username with access privilegies
+    * @var string $pass Password for user
+    * @var PDO $conn Connection object
     */
     private $host="localhost";
-
-    /**
-     *  @var string $db_name Name of database on server
-     */
     private $db_name="api_db";
-    /**
-     * @var string $user Username with access privilegies
-     */
     private $user="api_user";
-    /**
-     * @var string $pass Password for user 
-     */
     private string $pass="@qxgriJQ8Lj*Rrc";
-    /**
-     * @var PDO object $conn Connection object
-     */
     public $conn;
 
     // connection to DB
